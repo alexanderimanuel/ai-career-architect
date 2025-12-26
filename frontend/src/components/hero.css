@@ -1,0 +1,56 @@
+/* ============================================
+   HERO SECTION - Clean & Balanced Design
+   ============================================ */
+
+.hero-section {
+    padding-top: 20px !important;
+    padding-bottom: 40px !important;
+}
+
+.hero-card {
+    /* Glass Card Replication */
+    background: rgba(19, 19, 26, 0.78) !important;
+    backdrop-filter: blur(24px) !important;
+    -webkit-backdrop-filter: blur(24px) !important;
+    border: 1px solid rgba(99, 102, 241, 0.1) !important;
+    border-radius: 32px !important;
+    padding: 3rem !important;
+
+    /* Full Width Enforcement */
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+
+    /* Shadows */
+    box-shadow:
+        0 20px 60px rgba(0, 0, 0, 0.6),
+        0 0 0 1px rgba(99, 102, 241, 0.05) inset,
+        0 0 30px rgba(99, 102, 241, 0.03) inset !important;
+
+    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1) !important;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Divider Line within Card */
+.hero-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(139, 92, 246, 0.4), transparent);
+}
+
+.hero-card:hover {
+    background: rgba(25, 25, 35, 0.95) !important;
+    /* Slightly darker on hover */
+    border-color: rgba(99, 102, 241, 0.2) !important;
+    box-shadow:
+        0 25px 80px rgba(99, 102, 241, 0.15),
+        0 0 0 1px rgba(99, 102, 241, 0.1) inset,
+        0 0 40px rgba(99, 102, 241, 0.05) inset !important;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,35 @@
+/* ============================================
+   GLOBAL IMPROVEMENTS & POLISH
+   ============================================ */
+
+/* Force Container Expansion */
+.container-main {
+    max-width: 1440px !important;
+    /* Ultra wide */
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+    padding-top: 100px !important;
+    width: 100% !important;
+}
+
+@media (min-width: 768px) {
+    .container-main {
+        padding-left: 2rem !important;
+        padding-right: 2rem !important;
+    }
+}
+
+/* Ensure Hero & Input Form consistency */
+.hero-section,
+.input-form-container {
+    width: 100% !important;
+    max-width: none !important;
+}
+
+/* Glass card styling fix */
+.hero-card {
+    border-radius: 32px !important;
+    /* Match Input Form */
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
