@@ -60,7 +60,7 @@ const DocsPage = ({ onBack }) => {
                     </h1>
 
                     <p className="text-xl md:text-2xl text-gray-400 leading-relaxed font-light max-w-2xl mx-auto">
-                        Panduan lengkap untuk memaksimalkan potensi karir Anda dengan teknologi <span className="text-white font-semibold relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-px after:bg-indigo-500/50">AI Career Architect</span>.
+                        Panduan lengkap untuk memaksimalkan potensi karir Anda dengan teknologi <span className="text-white font-semibold relative inline-block after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-full after:h-px after:bg-indigo-500/50">CV Analisis</span>.
                     </p>
                 </div>
 
@@ -106,7 +106,7 @@ const DocsPage = ({ onBack }) => {
                                 Pertanyaan <br className="hidden lg:block" />Umum
                             </h2>
                             <p className="text-lg text-gray-400 leading-relaxed">
-                                Temukan jawaban cepat seputar cara kerja, privasi, dan fitur AI Career Architect di sini.
+                                Temukan jawaban cepat seputar cara kerja, privasi, dan fitur CV Analisis di sini.
                             </p>
                         </div>
 

@@ -108,8 +108,8 @@ function App() {
                       transition={{ delay: 0.18, duration: 0.7 }}
                       className="text-4xl md:text-6xl lg:text-7xl font-black mb-4 leading-tight"
                     >
-                      <div className="text-white mb-1">AI CAREER</div>
-                      <div className="gradient-text">ARCHITECT</div>
+                      <div className="text-white mb-1">CV</div>
+                      <div className="gradient-text">ANALISIS</div>
                     </motion.h1>
 
                     {/* Tagline (short supporting text) */}

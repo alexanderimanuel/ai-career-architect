@@ -22,7 +22,7 @@ const Navbar = ({ setView }) => {
         {/* Logo/Brand */}
         <a onClick={(e) => { e.preventDefault(); setView('home'); }} href="/" className="navbar-brand">
           <Sparkles className="brand-icon" />
-          <span className="brand-text">AI Career Architect</span>
+          <span className="brand-text">CV Analisis</span>
         </a>
 
         {/* Actions */}
